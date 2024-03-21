@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clientela {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 20px;
+    flex-wrap: nowrap;
+}
+
+.foto {
+    border-radius: 100% ;
+    width: 100px;
+    height: 86px;
+    background-color: white;
+    box-shadow: black 2px 2px 20px;
+    padding: 2px;
+    
+}
+
+.name {
+    border-radius: 20px;
+    background-color: purple;
+    padding: 15px;
+    margin: revert-layer;
+    color: white;
+    font-weight: bolder;
+}
+    

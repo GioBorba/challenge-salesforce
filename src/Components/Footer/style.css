@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    background-color: #0B5CAB;
+    height: 7vh;
+    padding:20px 0;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.footer a:hover {
+    transition: 0.4s ease-in-out;
+    transform: scale(1.2);
+    text-decoration: underline;
+}

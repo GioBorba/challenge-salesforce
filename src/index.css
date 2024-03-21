@@ -3,4 +3,66 @@
     color: #0D6181;
     justify-content: center;
     margin-top: 56px;
+    text-decoration: underline;
+    
+}
+
+.album {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    
+}
+
+.album a {
+    text-decoration: none;
+    color: black;
+}
+
+.card:hover {
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+}
+
+.clientes {
+    margin: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 350px;
+
+
+}
+
+.parceiros {
+    right: 0;
+    position: absolute;
+    display: grid;
+    align-items: start;
+    justify-items: center;
+    margin-right: 10vw;
+}
+
+.subtitle {
+    height: fit-content;
+    margin-top: 150px;
+}
+
+.image-doodle {
+    margin-top: 120px;
+    margin-left: 10px;
+}
+
+.bird {
+    position: absolute;
+    opacity: 82%;
+    transform: rotateY(45deg);
+    margin-left: 35px;
+}
+
+.um {
+    transform: rotateY(180deg);
+    right: 0;
+    margin-right: 25px;
 }

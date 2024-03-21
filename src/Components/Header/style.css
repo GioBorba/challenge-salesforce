@@ -6,7 +6,6 @@
 .header {
     display: flex;
     justify-content: space-between;
-    width: 100vw;
     height: 10vh;
     background-color: #0B5CAB;
 }
@@ -37,6 +36,7 @@
     align-items: center;
     width: 30%;
     justify-content: space-around;
+    margin: 10px;
 }
 
 .links,
