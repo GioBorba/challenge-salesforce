@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.subheader {
+    background-color:#0B5CAB;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.botoes {
+    display: flex;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    margin-top: 48px;
+    text-align: center;
+}
+
+.header-text h2 {
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.botoes {
+    justify-content: space-evenly;
+    margin-bottom: auto;
+}
+
+.botoes button {
+    width: 129px;
+    padding: 10px;
+    font-size: medium;
+    font-weight: bolder; 
+    color: #0B5CAB;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.header-text p {
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    font-size: large;
+}
+
+.imgCustomer {
+    width:345px;
+    height: 270px;
+}
