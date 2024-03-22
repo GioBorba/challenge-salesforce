@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    margin: 50px;
+    color: #00A1E0;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.text-box {
+    background-color:#C0EDFF;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    padding: 25px;
+    width: 829px;
+    height: 427px;
+    font-size: larger;
+    word-spacing: 3px;
+    line-height: 2;
+
+}
+
+.doodle-bear {
+    position: absolute;
+    opacity: 50%;
+}
+
+.title2 {
+    margin-top: 70vh;
+    margin-left: 75px;
+    color: #00A1E0;
+    margin-bottom: 10px;
+    font-size: 38px;
+}
+
+.crm-txt {
+    max-width: 905px;
+    margin-left: 47px;
+    word-spacing: 3px;
+    line-height: 1.8;
+}
+
+.doodle-goat {
+    position: absolute;
+    opacity: 70%;
+    right: 0;
+    width: 300px;
+    height: 446px;
+    margin-top: -20vh;
+}
+
+.title3 {
+    margin: 100px 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 997px;
+    height: 537px;
+    background-color: #C0EDFF;
+    border-radius: 15px;
+    padding: 25px;
+    margin-left: 9vw;
+    margin-bottom: 5vh;
+    
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    justify-content:center;
+    
+}
+
+.item-image {
+    margin: 5px;
+}
+
+.item-txt {
+    width: 264px;
+    text-align: center;
+}
+
+.texto {
+text-align: center;
+display: flex;
+margin: auto;
+width: 60%;
+font-size: larger;
+word-spacing: 3px;
+line-height: 1.8;
+
+}
+
+.title-important {
+    color: #00A1E0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    
+}
+
