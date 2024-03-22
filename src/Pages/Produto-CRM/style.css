@@ -28,12 +28,13 @@
 }
 
 .doodle-bear {
+    width: 400px;
     position: absolute;
     opacity: 50%;
 }
 
 .title2 {
-    margin-top: 70vh;
+    margin-top: 40vh;
     margin-left: 75px;
     color: #00A1E0;
     margin-bottom: 10px;
@@ -70,7 +71,7 @@
     border-radius: 15px;
     padding: 25px;
     margin-left: 9vw;
-    margin-bottom: 5vh;
+    
     
 }
 
@@ -108,6 +109,74 @@ line-height: 1.8;
     display: flex;
     justify-content: center;
     margin-bottom: 25px;
+    margin-top: 20vh;
     
 }
+
+.container-plataforma {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.elemento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+    width: 300px;
+    border: #00A1E0 transparent 2px solid;
+    padding: 20px;
+    box-shadow: #00A1E0 2px 20px 20px 15px;
+}
+
+
+
+.elemento-txt {
+    text-align: center;
+    margin-top: 25px;
+    width: 70%;
+}
+
+.container-last {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15vh;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-conteudo {
+    color: #00A1E0;
+    display: flex;
+    margin-bottom: 25px;
+    justify-content: center;
+}
+
+.conteudo-container {
+    width: 417px;
+    height: 317px;
+    align-items: center;
+    text-align: center;
+    word-spacing: 3px;
+    line-height: 1.8;   
+    background-color: #C0EDFF;
+    padding: 25px;
+}
+
+.dois {
+    margin-top: 10vh;
+}
+
+.bird {
+    position: absolute;
+    opacity: 70%;
+    margin: 150px;
+}
+
 
