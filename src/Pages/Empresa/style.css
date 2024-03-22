@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.container-txt {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+    margin-right: 12vw;
+}
+
+.container-txt2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+    margin-left: 12vw;
+}
+
+.title {
+    color: #00A1E0;
+    font-weight: bolder;
+    font-size: 48px;
+    text-decoration: 2px underline;
+    text-align: center;
+}
+
+.text {
+    font-size: 20px;
+    margin-top: 40px ;
+    text-align: center;
+    width: 40%;
+}
+
+.doodle {
+    height: 535px;
+}
+
+.bird {
+    position: absolute;
+    opacity: 62%;
+    transform: rotateY(30deg);
+    margin-left: 45%;
+    margin-top: -100px;
+}
+
+.motivos-container {
+    display: flex;
+}
+
+.first-container {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    margin:50px 10px;
+    justify-content: space-between;
+
+}
+
+.dois {
+    margin-bottom: 40px;
+}
+
+.image-motivo {
+    width: 600px;
+}
+
+.first-container ul {
+    justify-content: space-between;
+}
+
+.motivo {
+    margin:30px;
+    margin-bottom: 50%;
+    text-align: center;
+}
+
+.representacao {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10vh;
+}
+
+.representacao-txt {
+    text-align: left;
+    width: 25%;
+    font-size: larger;
+    margin-top: 25px;
+}
+
+.representacao-image {
+    width: 461px;
+    
+}
+
+.doodle-suport {
+    width: 264px;
+    border-radius: 50%;
+}
+
+.last-container {
+    display: flex;
+    align-items: center;
+    margin-top: -14vh;
+    margin-left: 7vw;
+
+}
