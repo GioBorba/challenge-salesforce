@@ -1,4 +1,5 @@
 import './App.css'
+import Cadastro from './Pages/Cadastro'
 import Empresa from './Pages/Empresa'
 import Home from './Pages/Home'
 import Login from './Pages/Login'
@@ -11,7 +12,7 @@ function App() {
 
   return (
     <div>
-      <Login/>
+      <Cadastro/>
     </div>
     
   )
