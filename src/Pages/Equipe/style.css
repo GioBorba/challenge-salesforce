@@ -1,0 +1,14 @@
+.album {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10vh;
+}
+
+.title-group {
+    display: flex;
+    justify-content: center;
+    color: #00A1E0;
+    margin-top: 10vh;
+    font-size: 42px;
+}
