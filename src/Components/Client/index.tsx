@@ -8,7 +8,7 @@ const Client : React.FC<ClientProps> = ({imagem, nome}) => {
     return(
         <div className="clientela">
             <img className="foto" src={imagem} />
-            <p className="name">{nome}</p>
+            <p className="nome">{nome}</p>
         </div>
     )
 }

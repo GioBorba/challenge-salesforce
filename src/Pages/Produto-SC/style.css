@@ -44,13 +44,14 @@
 
 .SC-img {
     position: absolute;
-    margin-top: -20vh;
-    margin-left: 55vw;
+    margin-top: -15vh;
+    margin-left: 50vw;
 }
 
 .bird {
     position: absolute;
     opacity: 60%;
+    left: 0;
     transform: rotateY(0deg);
     margin-left: 26vw;
     margin-top: 30vh;
