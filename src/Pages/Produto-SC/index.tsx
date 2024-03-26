@@ -7,7 +7,7 @@ const SC = () => {
         <div>
             <Header/>
 
-            <h1 className="title-SC">Sales Cloud</h1>
+            <h1 className="title-SC">Service Cloud</h1>
 
             <div className="ball">
                 <h2 className="title2-SC">Atendimento escalável que encanta os clientes.</h2>
