@@ -4,11 +4,12 @@
     box-sizing: border-box;
 }
 
-body {
+.body-cadastro {
     background-color: #0B5CAB;
+    height: 110vh;
 }
 
-.logo {
+.logo-cadastro {
     width: 90px;
     height: 69px;
     margin: 20px 0 0 20px;
@@ -94,7 +95,7 @@ body {
     transition: 0.3s ease-in-out;
 }
 
-h2 {
+.temConta {
     display: flex;
     justify-content: center;
     margin: -25vh 0 10vh;

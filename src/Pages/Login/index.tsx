@@ -1,11 +1,13 @@
 import './style.css'
 import logo from '../../Components/Header/salesforce-logo.png'
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     return(
-        <div>
-            
-            <img src={logo} className="logo"></img>
+        <div className='body-login'>
+            <Link to="/">
+                <img src={logo} className="logo-login"></img>
+            </Link>
 
             <div className="container-login">
                 <h1 className="title-login">Login</h1>
@@ -20,10 +22,10 @@ const Login = () => {
 
 
                 <button className='button-login'>Entrar</button>
-                <h3>Esqueceu a senha?</h3>
+                <h3 className='forgotSenha'>Esqueceu a senha?</h3>
             </div>
 
-            <h2>Não é um cliente? <button className="signup-button">Cadastre-se</button></h2>
+            <h2 className='notClient'>Não é um cliente? <Link to="/cadastro"><button className="signup-button">Cadastre-se</button></Link> </h2>
         </div>
     )
 }

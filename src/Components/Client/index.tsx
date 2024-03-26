@@ -7,7 +7,7 @@ type ClientProps = {
 const Client : React.FC<ClientProps> = ({imagem, nome}) => {
     return(
         <div className="clientela">
-            <img className="foto" src={imagem} />
+            <img className="foto-cliente" src={imagem} />
             <p className="nome">{nome}</p>
         </div>
     )

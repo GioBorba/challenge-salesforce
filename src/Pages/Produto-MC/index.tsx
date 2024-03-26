@@ -13,7 +13,7 @@ const MC = () => {
                 <section className="section-MC">
 
                     <h2 className="title2-MC">Faça cada momento valer a pena para alcançar o sucesso imediato</h2>
-                    <p className="title2-txt">Atraia clientes. Gere mais engajamento.
+                    <p className="title2-txt-mc">Atraia clientes. Gere mais engajamento.
     Construa relações duradouras.Tudo isso graças ao marketing digital baseado em dados.</p>
                 </section>
 
@@ -26,7 +26,7 @@ const MC = () => {
 
             <h2 className="title3-MC">Torne seu investimento em marketing mais eficaz com o Marketing Cloud</h2>
 
-            <img className='bird' src="https://www.salesforce.com/content/dam/web/en_us/www/images/marketing-cloud/overview/mc-bird.png"></img>
+            <img className='bird-mc' src="https://www.salesforce.com/content/dam/web/en_us/www/images/marketing-cloud/overview/mc-bird.png"></img>
 
             <div className="topics">
                 <ul>
@@ -59,7 +59,7 @@ const MC = () => {
                 <section className="details-text">
                     <h2 className="MC-title4">Pronto para saber mais sobre o Marketing Cloud? Vamos conversar.</h2>
                     <p className="title4-txt">Pergunte sobre os produtos, os preços, a implementação ou qualquer outro assunto relacionado ao Salesforce. Nossos agentes altamente treinados estão preparados e disponíveis para ajudar. Não é necessário cartão de crédito. Sem necessidade de instalar nenhum software. Acesse nossa plataforma de marketing digital líder de mercado, desenvolvida com o melhor CRM do mundo.</p>
-                    <a href="#"><button className="button">FALE CONOSCO</button></a>
+                    <a href="https://www.salesforce.com/br/form/contact/marketingcloud_contactme/?d=cta-footer-1"><button className="button">FALE CONOSCO</button></a>
                 </section>
                 <section className="ball">
                     <img className="title4-image" src='https://www.salesforce.com/content/dam/web/en_us/www/images/resource-center/footer.png'/>

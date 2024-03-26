@@ -3,11 +3,12 @@
     padding: 0;
 }
 
-body {
+.body-login {
     background-color: #0B5CAB;
+    height: 110vh;
 }
 
-.logo {
+.logo-login {
     width: 90px;
     height: 69px;
     margin: 20px 0 0 20px;
@@ -89,14 +90,14 @@ body {
 }
 
 
-h3 {
+.forgotSenha {
     color: white;
     margin-top: -10%;
     font-size: smaller;
 }
 
 
-h2 {
+.notClient {
     display: flex;
     justify-content: center;
     margin: -25vh 0 10vh;

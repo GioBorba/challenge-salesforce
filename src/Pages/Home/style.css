@@ -1,6 +1,8 @@
-.title2 {
+
+
+.title2-home {
     display: flex;
-    color: #0D6181;
+    color:#00A1E0;
     justify-content: center;
     margin-top: 56px;
     text-decoration: underline;
@@ -54,7 +56,7 @@
     margin-left: 10px;
 }
 
-.bird {
+.bird-home {
     position: absolute;
     opacity: 82%;
     transform: rotateY(45deg);

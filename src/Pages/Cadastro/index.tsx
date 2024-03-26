@@ -1,11 +1,14 @@
 import React from 'react';
 import './style.css';
 import logo from '../../Components/Header/salesforce-logo.png';
+import { Link } from 'react-router-dom';
 
 const Cadastro = () => {
     return(
-        <div>
-            <img src={logo} className="logo" alt="Salesforce Logo" />
+        <div className="body-cadastro">
+            <Link to="/">
+                <img src={logo} className="logo-cadastro" alt="Salesforce Logo" />
+            </Link>
 
             <div className="container-cadastro">
                 <h1 className="title-cadastro">Cadastro</h1>
@@ -26,7 +29,7 @@ const Cadastro = () => {
                 <button className='button-cadastro'>Cadastrar</button>
             </div>
 
-            <h2>Já tem uma conta? <button className="signin-button">Logar</button></h2>
+            <h2 className='temConta'>Já tem uma conta? <Link to="/login"><button className="signin-button">Logar</button></Link> </h2>
         </div>
     )
 }

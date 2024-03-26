@@ -34,7 +34,7 @@
     flex-direction: column;
 }
 
-.title2-txt {
+.title2-txt-mc {
     width: 45%;
     text-align: center;
 }
@@ -94,7 +94,7 @@
     margin-top: -100px;
 }
 
-.bird {
+.bird-mc {
     position: absolute;
     right: 0;
     opacity: 60%;

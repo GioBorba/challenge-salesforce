@@ -6,8 +6,8 @@ const Subheader = () => {
             <div className="header-text">
                 <h2>Entregue sucesso agora com o Salesforce Customer 360</h2>
                 <section className='botoes'>
-                    <a href="#"><button>Teste gratuito</button></a>
-                    <a href="#"><button>Saiba mais</button></a>
+                    <a href="https://www.salesforce.com/br/form/signup/salesforce-starter/"><button>Teste gratuito</button></a>
+                    <a href="https://www.salesforce.com/br/form/starter/overview-demo/"><button>Assista à demo</button></a>
                 </section>
                 
                 <p>O Customer 360 é a nossa suíte de produtos e serviços que ajuda

@@ -9,13 +9,13 @@ const Empresa = () => {
         <div>
             <Header/>
 
-            <div className="container">
+            <div className="container-empresa">
                 <section className="container-txt">
-                    <h1 className="title">O que é a Salesforce?</h1>
-                    <p className="text">A Salesforce é uma empresa de softwares que foca na solução de gerenciamento de relacionamento para aproximar empresas e pessoas. É uma plataforma de CRM integrada que oferece a todos os departamentos uma visão única e compartilhada de cada cliente.</p>
+                    <h1 className="title-empresa">O que é a Salesforce?</h1>
+                    <p className="text-empresa">A Salesforce é uma empresa de softwares que foca na solução de gerenciamento de relacionamento para aproximar empresas e pessoas. É uma plataforma de CRM integrada que oferece a todos os departamentos uma visão única e compartilhada de cada cliente.</p>
                 </section>
 
-                <img className="doodle" src="https://www.salesforce.com/blog/wp-content/uploads/sites/2/2021/12/2021-12-360Blog-2D-IndividualIllustrations-Einstien.png"></img>
+                <img className="doodle-empresa" src="https://www.salesforce.com/blog/wp-content/uploads/sites/2/2021/12/2021-12-360Blog-2D-IndividualIllustrations-Einstien.png"></img>
 
             </div>
 
@@ -27,15 +27,15 @@ const Empresa = () => {
                 <img className="doodle" src="https://www.salesforce.com/blog/wp-content/uploads/sites/2/2023/05/2023-05-360Blog-ContextualDriver-Zig-567x844-1.png"></img>
 
                 <section className="container-txt2">
-                    <h1 className="title">O que a Salesforce faz?</h1>
-                    <p className="text">Juntos, conectamos as empresas aos seus clientes.
+                    <h1 className="title-empresa">O que a Salesforce faz?</h1>
+                    <p className="text-empresa">Juntos, conectamos as empresas aos seus clientes.
 Utilizando o Salesforce Customer 360, nossa plataforma de CRM integrada, sua empresa oferece experiências personalizadas para seus clientes. Nossa solução fornece produtos poderosos e conectados para melhorar seu marketing, vendas, commerce, atendimento ao cliente, TI e muito mais.</p>
                 </section>
 
                 
             </div>
 
-            <h1 className="title dois">Por que usar Salesforce?</h1>
+            <h1 className="title-empresa2">Por que usar Salesforce?</h1>
 
             <div className="motivos-container">
                 <section className="first-container">
@@ -59,7 +59,7 @@ Utilizando o Salesforce Customer 360, nossa plataforma de CRM integrada, sua emp
             </div>
 
 
-            <h1 className="title">O que a Salesforce representa?</h1>
+            <h1 className="title-empresa">O que a Salesforce representa?</h1>
 
             <div className="representacao">
                 

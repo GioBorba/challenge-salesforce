@@ -6,7 +6,7 @@ const CRM = () => {
     return(
         <div>
             <Header/>
-            <h1 className="title">Customer Relationship Management</h1>
+            <h1 className="title-crm">Customer Relationship Management</h1>
 
             <img className="doodle-bear" src="https://www.salesforce.com/blog/wp-content/uploads/sites/2/2021/12/2021-12-360Blog-2D-IndividualIllustrations-Codey.png"/>
             <section className="text-box">Um conjunto de práticas, estratégias de negócio e tecnologias focadas no relacionamento com o cliente. A definição de CRM vai além: é uma gestão 360º de vendas, marketing, atendimento e todos os pontos de contato.
@@ -19,7 +19,7 @@ As plataformas de CRM estão na lista das tecnologias corporativas mais importan
 
             <h2 className="title3">Um software de CRM: </h2>
 
-            <div className="container">
+            <div className="container-crm">
                 <section className="items">
                     <img className="item-image" src='https://www.salesforce.com/content/dam/web/pt_br/www/images/crm/what-is-crm/crm_card--track-200x100.jpg'/>
                     <p className="item-txt">Rastreia ativamente e gerencia as informações dos clientes.</p>
@@ -85,15 +85,15 @@ Em vez de ficar preso a lembretes em notas adesivas amarelas ou imerso em planil
 
             </div>
 
-            <div className="container-last">
-                <section className="conteudo">
-                    <h1 className="title-conteudo">CRM e Vendas</h1>
-                    <p className="conteudo-container">Quando se pensa em CRM para vendas, estamos falando da parte de um CRM que se propõe ajudar sua empresa a vender mais em menos tempo. De forma inteligente, o CRM realiza tarefas simples de forma automatizada para que sua equipe possa focar nas etapas importantes para a conversão de vendas.</p>
+            <div className="container-last-crm">
+                <section className="conteudo-crm">
+                    <h1 className="title-crm-conteudo">CRM e Vendas</h1>
+                    <p className="conteudo-crm-container">Quando se pensa em CRM para vendas, estamos falando da parte de um CRM que se propõe ajudar sua empresa a vender mais em menos tempo. De forma inteligente, o CRM realiza tarefas simples de forma automatizada para que sua equipe possa focar nas etapas importantes para a conversão de vendas.</p>
                 </section>
 
-                <section className="conteudo">
-                    <h1 className="title-conteudo">CRM e Marketing</h1>
-                    <p className="conteudo-container">Estamos acostumados a associar CRM às vendas, mas o marketing também é essencial no relacionamento com o cliente. Ao integrar processos de marketing e vendas, você pode acompanhar a jornada do cliente por todo o funil.
+                <section className="conteudo-crm">
+                    <h1 className="title-crm-conteudo">CRM e Marketing</h1>
+                    <p className="conteudo-crm-container">Estamos acostumados a associar CRM às vendas, mas o marketing também é essencial no relacionamento com o cliente. Ao integrar processos de marketing e vendas, você pode acompanhar a jornada do cliente por todo o funil.
 As empresas não precisam mais serem passivas ao esperarem que um possível comprador entre em contato, elas podem sair na frente com estratégias e objetivos de negócios construídos com base na realidade disruptiva, acelerada e ultraconectada que estamos vivendo.</p>
                 </section>
 
@@ -102,9 +102,9 @@ As empresas não precisam mais serem passivas ao esperarem que um possível comp
 
             <img className='bird' src="https://www.salesforce.com/content/dam/web/en_us/www/images/marketing-cloud/overview/mc-bird.png"></img>
 
-            <section className="conteudo dois">
-                    <h1 className="title-conteudo">CRM e Atendimento ao Cliente</h1>
-                    <p className="conteudo-container">Se precisarmos definir atendimento ao cliente, diríamos que é todo o suporte que você oferece aos seus clientes antes, durante ou depois da compra.
+            <section className="conteudo-crm dois">
+                    <h1 className="title-crm-conteudo">CRM e Atendimento ao Cliente</h1>
+                    <p className="conteudo-crm-container">Se precisarmos definir atendimento ao cliente, diríamos que é todo o suporte que você oferece aos seus clientes antes, durante ou depois da compra.
 O relacionamento é impossível sem o atendimento, ainda mais quando ele está se transformando na experiência do cliente. Sua empresa precisa estar preparada para resolver problemas rapidamente e oferecer uma forma de autoatendimento fácil, intuitiva, disponível 24 horas por dia em todos os dispositivos. Como? Com um CRM focado no atendimento 360º.</p>
                 </section>
 

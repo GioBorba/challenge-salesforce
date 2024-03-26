@@ -1,19 +1,24 @@
 import logo from './salesforce-logo.png'
 import user from './user.png'
 import './style.css'
+import { Link } from 'react-router-dom'
+
 const Header = () => {
     return(
         <div className="header">
             <div className="left-side">
-                <img className="logo" src={logo}></img>
+                <Link to="/">
+                    <img className="logo" src={logo}></img>
+                </Link>
+
                 <input className='searchbar' type="text" placeholder="Pesquisar..."/>         
             </div>
 
             <div className='right-side'>
-                <h2 className="links"><a href="#">Empresa</a></h2>
-                <h2 className="links"><a href="#">Serviços</a></h2>
+                <h2 className="links"><Link to="/empresa">Empresa</Link></h2>
+                <h2 className="links"><a href="https://www.salesforce.com/br/solutions/industries/">Indústrias</a></h2>
                 <h2 className="links"> <img className="user" src={user}/>
-                    <a href="#">Login</a> | <a href="#">Cadastro</a> </h2>
+                    <Link to="/login">Login</Link> | <Link to="/cadastro">Cadastro</Link> </h2>
             </div>
         </div>
     )
