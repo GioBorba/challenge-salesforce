@@ -54,7 +54,10 @@
 .imgCustomer {
     width:345px;
     height: 270px;
+
 }
+
+
 
 @media screen and (max-width:1300px) {
     .header-text p {
@@ -83,5 +86,56 @@
 
     .botoes a {
         margin-right: 4px;
+    }
+}
+
+@media screen and (max-width:610px) {
+
+    .header-img {
+        display: flex;
+        justify-content: end;
+    }
+
+    .imgCustomer {
+        width: 90%;
+
+    }
+
+    .header-text {
+        width: 28%;
+    }
+
+    .header-text h2 {
+        font-size: 13px;
+        margin-bottom: 12px;
+    }
+
+    .header-text p {
+        font-size: 9px;
+    }
+
+
+}
+
+@media screen and (max-width:500px) {
+    .imgCustomer {
+        width: 80%;
+        height: 80%;
+    }
+
+    .header-text {
+        width: 35%;
+        margin-left: 15px;
+    }
+
+    .botoes button {
+        font-size: 10px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .header-text h2 {
+        font-size: 13px;
     }
 }

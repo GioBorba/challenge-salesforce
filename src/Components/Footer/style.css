@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content:space-evenly;
     background-color: #0B5CAB;
-    height: 10vh;
+    max-height: 10vh;
     padding:20px 0;
     align-items: center;
     margin-top: 100px;
@@ -23,3 +23,11 @@
     transform: scale(1.2);
     text-decoration: underline;
 }
+
+
+@media screen and (max-width:500px) {
+    .footer a {
+        font-size: 10px;
+    }
+}
+
