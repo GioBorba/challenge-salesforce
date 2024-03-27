@@ -19,12 +19,12 @@ const Empresa = () => {
 
             </div>
 
-            <img className='bird' src="https://www.salesforce.com/content/dam/web/en_us/www/images/marketing-cloud/overview/mc-bird.png"></img>
+            <img className='bird-empresa' src="https://www.salesforce.com/content/dam/web/en_us/www/images/marketing-cloud/overview/mc-bird.png"></img>
 
             <div className="container">
 
 
-                <img className="doodle" src="https://www.salesforce.com/blog/wp-content/uploads/sites/2/2023/05/2023-05-360Blog-ContextualDriver-Zig-567x844-1.png"></img>
+                <img className="doodle-zebra" src="https://www.salesforce.com/blog/wp-content/uploads/sites/2/2023/05/2023-05-360Blog-ContextualDriver-Zig-567x844-1.png"></img>
 
                 <section className="container-txt2">
                     <h1 className="title-empresa">O que a Salesforce faz?</h1>
@@ -74,7 +74,7 @@ Utilizando o Salesforce Customer 360, nossa plataforma de CRM integrada, sua emp
             <div className="last-container">
                 <img className="doodle-suport" src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_face,h_400,q_auto:good,w_400/v1/gcs/platform-data-salesforce/avatars/Admin_TKjjHxf.png"></img>
                 
-                <p className="contact">Quer saber mais? Contate-nos 0800 891 1887</p>
+                <p className="contact">Quer saber mais?<br/> Contate-nos 0800 891 1887</p>
             </div>
 
             <Footer/>

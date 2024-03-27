@@ -46,8 +46,7 @@
     height: 535px;
 }
 
-.bird {
-    position: absolute;
+.bird-empresa {
     opacity: 62%;
     transform: rotateY(30deg);
     margin-left: 45%;
@@ -74,6 +73,7 @@
     text-decoration: 2px underline;
     text-align: center;
     margin-bottom: 40px;
+    margin-top: 50vh;
 }
 
 .image-motivo {
@@ -111,6 +111,7 @@
 .doodle-suport {
     width: 264px;
     border-radius: 50%;
+    margin-top: 10vh;
 }
 
 .last-container {
@@ -123,4 +124,187 @@
 
 .contact {
     margin-left: 15px;
+}
+
+
+@media screen and (max-width:980px) {
+    .title-empresa {
+        font-size: 40px;
+    }
+
+    .text-empresa {
+        font-size: 18px;
+        width: 80%;
+    }
+
+    .container-txt2 {
+        margin-top: -50vh;
+    }
+
+    .doodle-zebra {
+        width: 40%;
+    }
+
+    .title-empresa2 {
+        font-size: 40px;
+        margin-top: 40vh;
+    }
+
+    .image-motivo {
+        width: 70%;
+        margin-bottom: 10vh;
+    }
+
+    .middle-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .motivo {
+        margin: 0;
+        font-size: 14px;
+        margin-bottom: 10vh;
+    }
+
+    .last-container {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:875px) {
+    .title-empresa, .title-empresa2 {
+        font-size: 30px;
+    }
+
+    .text-empresa {
+        font-size: 15px;
+    }
+
+    .doodle-empresa {
+        height: 400px;
+        width: 40%;
+    }
+
+    .container-txt2 {
+        margin-top: -40vh;
+    }
+
+    .representacao-image {
+        width: 40%;
+    }
+
+    .representacao-txt {
+        font-size: 16px;
+    }
+
+}
+
+
+@media screen and (max-width:615px) {
+    .representacao-image {
+        width: 40%;
+        height: 80%;
+    }
+
+    .representacao-txt {
+        width: 40%;
+    }
+
+    .title-empresa {
+        font-size: 24px;
+
+    }
+
+    .text-empresa {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .container-empresa {
+        margin-left: 10px;
+    }
+
+    .container-txt2 {
+        margin-top: -40vh;
+        margin-right: 10px;
+    }
+
+    .doodle-empresa {
+        height: 350px;
+    }
+
+    .bird-empresa {
+        margin-top: 0;
+    }
+
+    .contact {
+        font-size: 12px;
+    }
+
+    .doodle-suport {
+        width: 230px;
+    }
+    
+    .motivos-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .first-container {
+        margin:10px;
+    }
+
+    .motivo {
+        margin-bottom: 25px;
+        
+    }
+
+    .image-motivo {
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    .title-empresa {
+        font-size: 18px;
+    }
+
+    .text-empresa {
+        font-size: 12px;
+        width: 95%;
+    }
+
+    .container-txt2 {
+        margin-top: -30vh;
+    }
+
+    .bird-empresa {
+        margin-left: 15%;
+    }
+
+    .representacao-txt {
+        width: 50%;
+        font-size: 14px;
+    }
+
+    .representacao-image {
+        align-self: center;
+    }
+
+    .doodle-suport {
+        width: 200px;
+        margin-left: -15px;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .title-empresa {
+        font-size: 16px;
+    }
+
+    .text-empresa {
+        width: 100%;
+    }
 }
