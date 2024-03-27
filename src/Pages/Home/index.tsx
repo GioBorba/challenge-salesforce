@@ -17,23 +17,23 @@ const Home = () => {
             <h1 className="title2-home">O que a Salesforce oferece?</h1>
             <img className='bird-home um' src="https://www.salesforce.com/content/dam/web/en_us/www/images/marketing-cloud/overview/mc-bird.png"></img>
             <div className="album">
-            <Link to="/produto-crm"><Card image= 'https://colaninfotech.com/wp-content/uploads/2023/02/crmblock.jpg'
-            product="CRM"
-            description="CRM é a sigla usada para Customer Relationship Management e se refere ao conjunto de práticas,
-            estratégias de negócio e tecnologias focadas no relacionamento com o cliente."/></Link>
-            
-            <Link to="/produto-marketingcloud"><Card image="https://cynoteck.com/wp-content/uploads/2022/06/Salesforce-Marketing-Cloud-min.png"
-            product="Marketing Cloud"
-            description='Atraia clientes. Gere mais engajamento.
-            Construa relações duradouras.
-            Tudo isso graças ao marketing digital baseado em dados.'/></Link>
-            
-            <Link to="/produto-servicecloud">
-            <Card image="https://media.licdn.com/dms/image/D5612AQGJ0tKDkVjHMw/article-cover_image-shrink_600_2000/0/1676653912277?e=2147483647&v=beta&t=hnE9507KJxtEpH-8px8pyIDBrF7FOBIJuo9_Nc7s9M8"
-            product="Service Cloud"
-            description='Impulsione a eficiência e expanda o atendimento eficaz,
-            entregando uma experiência de atendimento e suporte personalizados e alimentados por IA para todos os clientes.'/>
-            </Link>
+                <Link to="/produto-crm"><Card image= 'https://colaninfotech.com/wp-content/uploads/2023/02/crmblock.jpg'
+                product="CRM"
+                description="CRM é a sigla usada para Customer Relationship Management e se refere ao conjunto de práticas,
+                estratégias de negócio e tecnologias focadas no relacionamento com o cliente."/></Link>
+                
+                <Link to="/produto-marketingcloud"><Card image="https://cynoteck.com/wp-content/uploads/2022/06/Salesforce-Marketing-Cloud-min.png"
+                product="Marketing Cloud"
+                description='Atraia clientes. Gere mais engajamento.
+                Construa relações duradouras.
+                Tudo isso graças ao marketing digital baseado em dados.'/></Link>
+                
+                <Link to="/produto-servicecloud">
+                <Card image="https://media.licdn.com/dms/image/D5612AQGJ0tKDkVjHMw/article-cover_image-shrink_600_2000/0/1676653912277?e=2147483647&v=beta&t=hnE9507KJxtEpH-8px8pyIDBrF7FOBIJuo9_Nc7s9M8"
+                product="Service Cloud"
+                description='Impulsione a eficiência e expanda o atendimento eficaz,
+                entregando uma experiência de atendimento e suporte personalizados e alimentados por IA para todos os clientes.'/>
+                </Link>
             
             
             </div>

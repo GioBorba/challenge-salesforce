@@ -13,7 +13,7 @@ const Equipe = () => {
 
             <h1 className="title-group">Equipe</h1>
 
-            <div className="album">
+            <div className="album-grupo">
                 <Membro foto={japa}
                 nome="Eduardo Shiraga Rodrigues"
                 rm={553705}
