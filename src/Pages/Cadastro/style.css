@@ -118,3 +118,50 @@
     color: white;
     transition: 0.4s ease-in-out;
 }
+
+
+
+
+@media screen and (max-width: 1035px) {
+    .container-cadastro {
+        width: 70%;
+       
+    }
+
+    .nome-sobrenome {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nome-sobrenome .campo-cadastro {
+        width: 80%;
+        margin: 15px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container-cadastro {
+        width: 80%;
+    }
+
+    .logo-cadastro {
+        width: 70px;
+        height: auto;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .container-cadastro {
+        width: 85%;
+    }
+
+    .logo-cadastro {
+        width: 50px;
+        height: auto;
+    }
+}
+
+
+
+

@@ -122,3 +122,75 @@
     
     
 }
+
+@media screen and (max-width:1050px) {
+    .container-login {
+        width: 52%;
+    }
+}
+
+@media screen and (max-width:945px) {
+    .login {
+        font-size: 25px;
+    }
+
+    .container-login {
+        width: 65%;
+        height: 60%;
+    }
+
+    .campo-login {
+        padding: 13px;
+    }
+
+    .container-checkbox {
+        font-size: 12px;
+    }
+
+    .notClient {
+        font-size: 16px;
+        margin-bottom: 5vh;
+    }
+
+    .signup-button {
+        font-size: 12px;
+    }
+
+    .button-login {
+        padding: 7px;
+        font-size: 13px;
+    }
+
+    .forgotSenha {
+        
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .container-login {
+        width: 52%;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .container-login {
+        width: 62%;
+        height: 50%;
+    }
+
+    .logo-login {
+        width: 15%;
+        height: 8%;
+    }
+}
+
+@media screen and (max-width:401px) {
+    .container-login {
+        width:72%;
+    }
+
+    .logo-login {
+        width: 17%;
+    }
+}
