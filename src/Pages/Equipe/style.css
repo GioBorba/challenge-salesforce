@@ -1,27 +1,27 @@
 .album-grupo {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 10vh;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10vh;
+  flex-wrap: wrap;
 }
 
 .title-group {
-    display: flex;
-    justify-content: center;
-    color: #00A1E0;
-    margin-top: 10vh;
-    font-size: 42px;
+  display: flex;
+  justify-content: center;
+  color: #00a1e0;
+  margin-top: 10vh;
+  font-size: 42px;
 }
 
 @media screen and (max-width: 930px) {
-    .album-grupo {
-        flex-direction: column;
-        align-items: center;
-    }
+  .album-grupo {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .title-group {
-        font-size: 32px;
-        margin-top: 5vh;
-    }
+  .title-group {
+    font-size: 32px;
+    margin-top: 5vh;
+  }
 }
