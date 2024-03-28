@@ -150,3 +150,141 @@
     opacity: 70%;
     border-radius: 50%;
 }
+
+
+
+@media screen and (max-width:1275px) {
+    .title2-MC {
+        margin: 0;
+        width: 100%;
+    }
+
+    .title3-MC {
+        font-size: 30px;
+    }
+
+    .title2-txt-mc {
+        text-align: left;
+        width: 100%;
+    }
+
+    .MC-img {
+        width: 50%;
+        height: 50%;
+    }
+    
+    .MC-details {
+        margin-top: 40vh;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    
+
+    .doodle-fox {
+        margin-top: -130px;
+        width: 230px;
+    }
+    
+    .title3-MC {
+        font-size: 23px;
+    }
+
+    .MC-title4 {
+        font-size: 30px;
+    }
+
+    .title4-txt {
+        font-size: 15px;
+    }
+
+    .ball {
+        width:60vw ;
+    }
+
+    .bird-mc {
+        margin-top: 0;
+    }
+
+    .MC-details {
+        margin-top: 40vh;
+    }
+
+
+
+}
+
+@media screen and (max-width:771px) {
+    .doodle-fox {
+        margin-top: -120px;
+        width: 200px;
+        height: 45%;
+    }
+
+    .bird-mc {
+        margin-top: 0;
+    }
+
+    .title3-MC {
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width:675px) {
+    .doodle-fox {
+        margin-top: -120px;
+        width: 150px;
+        height: 30%;
+    }
+
+    .MC-title4 {
+        font-size: 20px;
+    }
+
+    .ball {
+        display: none;
+    }
+
+    .MC-details {
+        margin-top: 15vh;
+        padding: 25px;
+    }
+
+    .details-text {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 432px) {
+    .doodle-fox {
+        display: none;
+    }
+
+    .second, .third {
+        margin-left: 6%;
+        
+    }
+
+    .title3-MC {
+        margin-top: 15vh;
+        font-size: 18px;
+    }
+
+    .MC-details {
+        margin-top: 4vh;
+    }
+
+    .MC-title4 {
+        font-size: 16px;
+    }
+
+    .title4-txt {
+        font-size: 12px;
+    }
+
+    .title-MC {
+        font-size: 30px;
+    }
+
+}
