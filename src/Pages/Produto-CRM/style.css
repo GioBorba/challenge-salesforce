@@ -129,7 +129,9 @@ line-height: 1.8;
   width: 350px;
   border: #00A1E0 transparent 2px solid;
   padding: 20px;
-  box-shadow: #00A1E0 2px 20px 20px 15px;
+  box-shadow: 2px 2px 5px 2px #00A1E0;
+  border-left: none;
+  border-top: none;
 }
 
 
