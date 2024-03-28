@@ -179,4 +179,225 @@ line-height: 1.8;
     margin: 150px;
 }
 
+@media screen and (max-width: 1440px) {
+    .text-box {
+        margin-right: 50px;
+    }
+}
+
+
+@media screen and (max-width:1215px) {
+    .container-plataforma {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .text-box {
+        height: fit-content;
+        width: 65%;
+    }
+
+    .doodle-goat {
+        margin-top: -40vh;
+    }
+    
+    .crm-txt {
+        width: 605px;
+    }
+
+    .container-crm {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:1000px) {
+    .text-box {
+        width: 55%;
+    }
+
+    .bird {
+        margin-left: 20vw;
+    }
+
+    .crm-txt {
+        width: 480px;
+    }
+
+    .elemento {
+        margin-bottom: 10vh;
+
+        
+    }
+
+    .container-last-crm {
+        flex-wrap: wrap;
+    }
+
+    .conteudo-crm {
+        margin: 25px;
+    }
+
+    
+}
+
+@media screen and (max-width:760px) {
+    .text-box {
+        line-height: normal;
+    }
+
+    .doodle-bear {
+        width: 300px;
+    }
+
+    .crm-txt {
+        width: 400px;
+    }
+
+    .doodle-goat {
+        width: 250px;
+    }
+
+    .texto {
+        font-size: 18px;
+    } 
+
+    .title-important {
+        font-size: 28px;
+    }
+
+    .bird-crm {
+        margin: 0;
+    }
+}
+
+
+@media screen and (max-width:655px) {
+    .text-box {
+        width: 50%;
+        word-spacing: normal;
+    }
+
+    .title-crm {
+        font-size: 28px;
+    }
+
+    .title-important {
+        font-size: 23px;
+    }
+
+    .crm-txt {
+        width: 300px;
+        word-spacing: normal;
+    }
+
+    .texto {
+        width: 80%;
+    }
+
+    .item-image {
+        width: 60%;
+    }
+
+    .item-txt {
+        width: 200px;
+    }
+
+    
+}
+
+
+@media screen and (max-width:538px) {
+    .text-box{
+        font-size: 14px;
+    }
+
+    .doodle-bear {
+        width: 200px;
+    }
+
+    .title-crm {
+        font-size: 24px;
+    }
+
+    .doodle-goat {
+        width: 200px    ;
+    }
+
+    .crm-txt {
+        width: 280px;
+        font-size: 15px;
+    }
+
+    .container-crm {
+        height: fit-content;
+    }
+
+    .items {
+        margin: 10px;
+    }
+
+    .title-important {
+        font-size: 20px;
+    }
+
+    .texto {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:485px) {
+    .container-last-crm {
+        justify-content: center;
+    }
+
+    .crm-txt {
+        width: 200px;
+        font-size: 13px;
+    }
+
+    .title-important {
+        font-size: 16px;
+    }
+
+    .texto {
+        font-size: 12px;
+    }
+
+    .title-crm {
+        font-size:22px ;
+    }
+
+    .conteudo-crm-container {
+        width: 317px;
+        height: fit-content;
+    }
+
+    .title3 {
+        font-size: 20px
+    }
+
+    .doodle-goat {
+        width: 160px;
+    }
+
+    .elemento-img {
+        width: 70%;
+    }
+
+    .title2 {
+        font-size: 28px;
+    }
+
+    .doodle-bear {
+        width: 150px;
+    }
+
+    .text-box {
+        width: 55%;
+        padding: 20px;
+        font-size: 13px;
+    }
+}
 

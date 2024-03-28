@@ -100,7 +100,7 @@ As empresas não precisam mais serem passivas ao esperarem que um possível comp
                 
             </div>
 
-            <img className='bird' src="https://www.salesforce.com/content/dam/web/en_us/www/images/marketing-cloud/overview/mc-bird.png"></img>
+            <img className='bird-crm' src="https://www.salesforce.com/content/dam/web/en_us/www/images/marketing-cloud/overview/mc-bird.png"></img>
 
             <section className="conteudo-crm dois">
                     <h1 className="title-crm-conteudo">CRM e Atendimento ao Cliente</h1>
