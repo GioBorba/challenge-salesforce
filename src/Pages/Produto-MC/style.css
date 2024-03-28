@@ -1,7 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .title-MC {
   display: flex;
   justify-content: center;
-  color: #00a1e0;
+  color: #00A1E0;
   text-decoration: underline;
   margin: 50px;
   font-style: italic;
@@ -17,7 +22,7 @@
 }
 
 .title2-MC {
-  color: #00a1e0;
+  color:#00A1E0;
   font-size: 38px;
   width: 33%;
   text-align: left;
@@ -42,7 +47,7 @@
 .title3-MC {
   display: flex;
   justify-content: center;
-  color: #00a1e0;
+  color: #00A1E0;
   margin: 50px;
   margin-top: 30vh;
   font-size: 38px;
@@ -60,6 +65,7 @@
   font-size: larger;
   word-spacing: 1.4px;
   line-height: 2;
+
 }
 
 .topic-txt {
@@ -68,7 +74,7 @@
 
 .topic-exp {
   font-size: 0.7em;
-  margin-left: 4%;
+  margin-left: 4%; 
 }
 
 .second {
@@ -107,10 +113,11 @@
   display: flex;
   flex-direction: column;
   width: 30%;
+  
 }
 
 .MC-title4 {
-  color: #00a1e0;
+  color:#00A1E0;
   margin-bottom: 15px;
   font-size: 38px;
   text-align: center;
@@ -121,10 +128,11 @@
   font-size: larger;
   word-spacing: 1.2px;
   line-height: 1.4;
+
 }
 
 .button {
-  background-color: #0b5cab;
+  background-color:#0B5CAB;
   color: white;
   font-weight: bold;
   padding: 8px;
@@ -132,8 +140,9 @@
 }
 
 .button:hover {
-  cursor: pointer;
+  cursor:pointer;
   background-color: #3e7fc0;
+  
 }
 
 .ball {
@@ -142,131 +151,140 @@
   border-radius: 50%;
 }
 
-@media screen and (max-width: 1275px) {
+
+
+@media screen and (max-width:1275px) {
   .title2-MC {
-    margin: 0;
-    width: 100%;
+      margin: 0;
+      width: 100%;
   }
 
   .title3-MC {
-    font-size: 30px;
+      font-size: 30px;
   }
 
   .title2-txt-mc {
-    text-align: left;
-    width: 100%;
+      text-align: left;
+      width: 100%;
   }
 
   .MC-img {
-    width: 50%;
-    height: 50%;
+      width: 50%;
+      height: 50%;
   }
-
+  
   .MC-details {
-    margin-top: 40vh;
+      margin-top: 40vh;
   }
 }
 
-@media screen and (max-width: 1000px) {
-  .doodle-fox {
-    margin-top: -130px;
-    width: 230px;
-  }
+@media screen and (max-width:1000px) {
+  
 
+  .doodle-fox {
+      margin-top: -130px;
+      width: 230px;
+  }
+  
   .title3-MC {
-    font-size: 23px;
+      font-size: 23px;
   }
 
   .MC-title4 {
-    font-size: 30px;
+      font-size: 30px;
   }
 
   .title4-txt {
-    font-size: 15px;
+      font-size: 15px;
   }
 
   .ball {
-    width: 60vw;
+      width:60vw ;
   }
 
   .bird-mc {
-    margin-top: 0;
+      margin-top: 0;
   }
 
   .MC-details {
-    margin-top: 40vh;
+      margin-top: 40vh;
   }
+
+
+
 }
 
-@media screen and (max-width: 771px) {
+@media screen and (max-width:771px) {
   .doodle-fox {
-    margin-top: -120px;
-    width: 200px;
-    height: 45%;
+      margin-top: -120px;
+      width: 200px;
+      height: 45%;
   }
 
   .bird-mc {
-    margin-top: 0;
+      margin-top: 0;
   }
 
   .title3-MC {
-    font-size: 20px;
+      font-size: 20px;
   }
 }
 
-@media screen and (max-width: 675px) {
+
+@media screen and (max-width:675px) {
   .doodle-fox {
-    margin-top: -120px;
-    width: 150px;
-    height: 30%;
+      margin-top: -120px;
+      width: 150px;
+      height: 30%;
   }
 
   .MC-title4 {
-    font-size: 20px;
+      font-size: 20px;
   }
 
   .ball {
-    display: none;
+      display: none;
   }
 
   .MC-details {
-    margin-top: 15vh;
-    padding: 25px;
+      margin-top: 15vh;
+      padding: 25px;
   }
 
   .details-text {
-    width: 100%;
+      width: 100%;
   }
 }
 
 @media screen and (max-width: 432px) {
   .doodle-fox {
-    display: none;
+      display: none;
   }
 
-  .second,
-  .third {
-    margin-left: 6%;
+  .second, .third {
+      margin-left: 6%;
+      
   }
 
   .title3-MC {
-    margin-top: 15vh;
-    font-size: 18px;
+      margin-top: 15vh;
+      font-size: 18px;
   }
 
   .MC-details {
-    margin-top: 4vh;
+      margin-top: 4vh;
   }
 
   .MC-title4 {
-    font-size: 16px;
+      font-size: 16px;
   }
 
   .title4-txt {
-    font-size: 12px;
+      font-size: 12px;
   }
 
   .title-MC {
-    font-size: 30px;
+      font-size: 30px;
   }
+
 }

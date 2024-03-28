@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .body-cadastro {
     background-color: #0B5CAB;
     height: 110vh;

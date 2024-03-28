@@ -1,5 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .body-login {
-  background-color: #0b5cab;
+  background-color: #0B5CAB;
   height: 110vh;
 }
 
@@ -13,14 +18,14 @@
   display: flex;
   flex-direction: column;
   width: 32%;
-  background-color: #014c95;
+  background-color: #014C95;
   padding: 10px;
   align-items: center;
   border-radius: 23px;
   margin: auto;
   height: 80vh;
   margin-bottom: 30vh;
-  justify-content: space-evenly;
+  justify-content:space-evenly;
 }
 
 .section-input {
@@ -37,17 +42,18 @@
 
 .campo-login {
   margin: 15px 0;
-  border-radius: 15px;
+  border-radius: 15px ;
   padding: 15px;
   width: 80%;
   border: none;
   outline: none;
   border-bottom: 1px solid black;
   background-color: #0958a7;
+  
 }
 
 .campo-login::placeholder {
-  color: white;
+  color:white;
   opacity: 40%;
 }
 
@@ -66,11 +72,12 @@
 
 .button-login {
   padding: 10px;
-  background-color: #00a1e0;
+  background-color: #00A1E0;
   color: rgb(238, 238, 238);
   font-weight: bolder;
   font-size: larger;
   width: 48%;
+  
 }
 
 .button-login:hover {
@@ -78,13 +85,17 @@
   background-color: #06668c;
   color: white;
   transition: 0.3s ease-in-out;
+  
+
 }
+
 
 .forgotSenha {
   color: white;
   margin-top: -10%;
   font-size: smaller;
 }
+
 
 .notClient {
   display: flex;
@@ -98,85 +109,88 @@
   margin-left: 15px;
   padding: 8px;
   background-color: white;
-  color: #00a1e0;
+  color: #00A1E0;
   font-weight: bolder;
   border: none;
 }
 
 .signup-button:hover {
   cursor: pointer;
-  background-color: #014c95;
+  background-color: #014C95;
   color: white;
   transition: 0.4s ease-in-out;
+  
+  
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width:1050px) {
   .container-login {
-    width: 52%;
+      width: 52%;
   }
 }
 
-@media screen and (max-width: 945px) {
+@media screen and (max-width:945px) {
   .login {
-    font-size: 25px;
+      font-size: 25px;
   }
 
   .container-login {
-    width: 65%;
-    height: 60%;
+      width: 65%;
+      height: 60%;
   }
 
   .campo-login {
-    padding: 13px;
+      padding: 13px;
   }
 
   .container-checkbox {
-    font-size: 12px;
+      font-size: 12px;
   }
 
   .notClient {
-    font-size: 16px;
-    margin-bottom: 5vh;
+      font-size: 16px;
+      margin-bottom: 5vh;
   }
 
   .signup-button {
-    font-size: 12px;
+      font-size: 12px;
   }
 
   .button-login {
-    padding: 7px;
-    font-size: 13px;
+      padding: 7px;
+      font-size: 13px;
   }
 
   .forgotSenha {
-    font-size: 13px;
+      
+      font-size: 13px;
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width:750px) {
   .container-login {
-    width: 52%;
+      width: 52%;
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width:520px) {
   .container-login {
-    width: 62%;
-    height: 50%;
+      width: 62%;
+      height: 50%;
   }
 
   .logo-login {
-    width: 15%;
-    height: 8%;
+      width: 15%;
+      height: 8%;
   }
 }
 
-@media screen and (max-width: 401px) {
+@media screen and (max-width:401px) {
   .container-login {
-    width: 72%;
+      width:72%;
   }
 
   .logo-login {
-    width: 17%;
+      width: 17%;
   }
 }

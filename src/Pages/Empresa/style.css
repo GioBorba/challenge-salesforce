@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
 .container-empresa {
   display: flex;
   justify-content: space-between;
@@ -12,19 +18,17 @@
   margin-right: 12vw;
 }
 
-.container {
-  display: flex;
-  align-items: center;
-}
-
 .container-txt2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 50vw;
+  margin-top: -80vh;
+  margin-bottom: 30vh;
 }
 
 .title-empresa {
-  color: #00a1e0;
+  color: #00A1E0;
   font-weight: bolder;
   font-size: 48px;
   text-decoration: 2px underline;
@@ -33,7 +37,7 @@
 
 .text-empresa {
   font-size: 20px;
-  margin-top: 40px;
+  margin-top: 40px ;
   text-align: center;
   width: 60%;
 }
@@ -57,17 +61,19 @@
   display: flex;
   flex-direction: column;
   padding: 8px;
-  margin: 50px 10px;
+  margin:50px 10px;
   justify-content: space-between;
+
 }
 
 .title-empresa2 {
-  color: #00a1e0;
+  color: #00A1E0;
   font-weight: bolder;
   font-size: 48px;
   text-decoration: 2px underline;
   text-align: center;
   margin-bottom: 40px;
+  margin-top: 50vh;
 }
 
 .image-motivo {
@@ -79,7 +85,7 @@
 }
 
 .motivo {
-  margin: 30px;
+  margin:30px;
   margin-bottom: 50%;
   text-align: center;
 }
@@ -88,7 +94,6 @@
   display: flex;
   justify-content: space-around;
   margin-top: 10vh;
-  align-items: center;
 }
 
 .representacao-txt {
@@ -100,6 +105,7 @@
 
 .representacao-image {
   width: 461px;
+  
 }
 
 .doodle-suport {
@@ -111,178 +117,194 @@
 .last-container {
   display: flex;
   align-items: center;
+  margin-top: -14vh;
   margin-left: 7vw;
+
 }
 
 .contact {
   margin-left: 15px;
 }
 
-@media screen and (max-width: 980px) {
+
+@media screen and (max-width:980px) {
   .title-empresa {
-    font-size: 40px;
+      font-size: 40px;
   }
 
   .text-empresa {
-    font-size: 18px;
-    width: 80%;
-  }
-
-  .doodle-zebra {
-    width: 40%;
-  }
-
-  .title-empresa2 {
-    font-size: 40px;
-  }
-
-  .image-motivo {
-    width: 70%;
-    margin-bottom: 10vh;
-  }
-
-  .middle-container {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-
-  .motivo {
-    margin: 0;
-    font-size: 14px;
-    margin-bottom: 10vh;
-  }
-
-  .last-container {
-    margin-top: 0;
-  }
-}
-
-@media screen and (max-width: 875px) {
-  .title-empresa,
-  .title-empresa2 {
-    font-size: 30px;
-  }
-
-  .title-empresa2 {
-    margin: 15px 0 0 0;
-  }
-
-  .text-empresa {
-    font-size: 15px;
-  }
-
-  .doodle-empresa {
-    height: 400px;
-    width: 40%;
-  }
-
-  .representacao-image {
-    width: 40%;
-    height: 90%;
-  }
-
-  .representacao-txt {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 615px) {
-  .representacao-image {
-    width: 40%;
-    height: 80%;
-  }
-
-  .representacao-txt {
-    width: 40%;
-  }
-
-  .title-empresa {
-    font-size: 24px;
-  }
-
-  .text-empresa {
-    width: 90%;
-    font-size: 14px;
-  }
-
-  .container-empresa {
-    margin-left: 10px;
+      font-size: 18px;
+      width: 80%;
   }
 
   .container-txt2 {
-    margin-right: 10px;
+      margin-top: -50vh;
   }
 
-  .doodle-empresa {
-    height: 350px;
+  .doodle-zebra {
+      width: 40%;
   }
 
-  .bird-empresa {
-    margin-top: 0;
-  }
-
-  .contact {
-    font-size: 12px;
-  }
-
-  .doodle-suport {
-    width: 230px;
-  }
-
-  .motivos-container {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .first-container {
-    margin: 10px;
-  }
-
-  .motivo {
-    margin-bottom: 25px;
+  .title-empresa2 {
+      font-size: 40px;
+      margin-top: 40vh;
   }
 
   .image-motivo {
-    margin: 0;
+      width: 70%;
+      margin-bottom: 10vh;
+  }
+
+  .middle-container {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+  }
+
+  .motivo {
+      margin: 0;
+      font-size: 14px;
+      margin-bottom: 10vh;
+  }
+
+  .last-container {
+      margin-top: 0;
   }
 }
 
-@media screen and (max-width: 500px) {
-  .title-empresa {
-    font-size: 18px;
+@media screen and (max-width:875px) {
+  .title-empresa, .title-empresa2 {
+      font-size: 30px;
   }
 
   .text-empresa {
-    font-size: 12px;
-    width: 95%;
+      font-size: 15px;
   }
 
-  .bird-empresa {
-    margin-left: 15%;
+  .doodle-empresa {
+      height: 400px;
+      width: 40%;
   }
 
-  .representacao-txt {
-    width: 50%;
-    font-size: 14px;
+  .container-txt2 {
+      margin-top: -40vh;
   }
 
   .representacao-image {
-    align-self: center;
+      width: 40%;
   }
 
-  .doodle-suport {
-    width: 200px;
-    margin-left: -15px;
+  .representacao-txt {
+      font-size: 16px;
   }
+
 }
 
-@media screen and (max-width: 376px) {
+
+@media screen and (max-width:615px) {
+  .representacao-image {
+      width: 40%;
+      height: 80%;
+  }
+
+  .representacao-txt {
+      width: 40%;
+  }
+
   .title-empresa {
-    font-size: 16px;
+      font-size: 24px;
+
   }
 
   .text-empresa {
-    width: 100%;
+      width: 90%;
+      font-size: 14px;
+  }
+
+  .container-empresa {
+      margin-left: 10px;
+  }
+
+  .container-txt2 {
+      margin-top: -40vh;
+      margin-right: 10px;
+  }
+
+  .doodle-empresa {
+      height: 350px;
+  }
+
+  .bird-empresa {
+      margin-top: 0;
+  }
+
+  .contact {
+      font-size: 12px;
+  }
+
+  .doodle-suport {
+      width: 230px;
+  }
+  
+  .motivos-container {
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .first-container {
+      margin:10px;
+  }
+
+  .motivo {
+      margin-bottom: 25px;
+      
+  }
+
+  .image-motivo {
+      margin: 0;
+  }
+
+}
+
+@media screen and (max-width:500px) {
+  .title-empresa {
+      font-size: 18px;
+  }
+
+  .text-empresa {
+      font-size: 12px;
+      width: 95%;
+  }
+
+  .container-txt2 {
+      margin-top: -30vh;
+  }
+
+  .bird-empresa {
+      margin-left: 15%;
+  }
+
+  .representacao-txt {
+      width: 50%;
+      font-size: 14px;
+  }
+
+  .representacao-image {
+      align-self: center;
+  }
+
+  .doodle-suport {
+      width: 200px;
+      margin-left: -15px;
+  }
+}
+
+@media screen and (max-width:376px) {
+  .title-empresa {
+      font-size: 16px;
+  }
+
+  .text-empresa {
+      width: 100%;
   }
 }
