@@ -1,310 +1,288 @@
-* {
-    margin: 0;
-    padding: 0;
-    
-}
-
 .container-empresa {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 
 .container-txt {
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-    align-items: center;
-    margin-right: 12vw;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  align-items: center;
+  margin-right: 12vw;
+}
+
+.container {
+  display: flex;
+  align-items: center;
 }
 
 .container-txt2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 50vw;
-    margin-top: -80vh;
-    margin-bottom: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .title-empresa {
-    color: #00A1E0;
-    font-weight: bolder;
-    font-size: 48px;
-    text-decoration: 2px underline;
-    text-align: center;
+  color: #00a1e0;
+  font-weight: bolder;
+  font-size: 48px;
+  text-decoration: 2px underline;
+  text-align: center;
 }
 
 .text-empresa {
-    font-size: 20px;
-    margin-top: 40px ;
-    text-align: center;
-    width: 60%;
+  font-size: 20px;
+  margin-top: 40px;
+  text-align: center;
+  width: 60%;
 }
 
 .doodle-empresa {
-    height: 535px;
+  height: 535px;
 }
 
 .bird-empresa {
-    opacity: 62%;
-    transform: rotateY(30deg);
-    margin-left: 45%;
-    margin-top: -100px;
+  opacity: 62%;
+  transform: rotateY(30deg);
+  margin-left: 45%;
+  margin-top: -100px;
 }
 
 .motivos-container {
-    display: flex;
+  display: flex;
 }
 
 .first-container {
-    display: flex;
-    flex-direction: column;
-    padding: 8px;
-    margin:50px 10px;
-    justify-content: space-between;
-
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  margin: 50px 10px;
+  justify-content: space-between;
 }
 
 .title-empresa2 {
-    color: #00A1E0;
-    font-weight: bolder;
-    font-size: 48px;
-    text-decoration: 2px underline;
-    text-align: center;
-    margin-bottom: 40px;
-    margin-top: 50vh;
+  color: #00a1e0;
+  font-weight: bolder;
+  font-size: 48px;
+  text-decoration: 2px underline;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .image-motivo {
-    width: 600px;
+  width: 600px;
 }
 
 .first-container ul {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .motivo {
-    margin:30px;
-    margin-bottom: 50%;
-    text-align: center;
+  margin: 30px;
+  margin-bottom: 50%;
+  text-align: center;
 }
 
 .representacao {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 10vh;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10vh;
+  align-items: center;
 }
 
 .representacao-txt {
-    text-align: left;
-    width: 25%;
-    font-size: larger;
-    margin-top: 25px;
+  text-align: left;
+  width: 25%;
+  font-size: larger;
+  margin-top: 25px;
 }
 
 .representacao-image {
-    width: 461px;
-    
+  width: 461px;
 }
 
 .doodle-suport {
-    width: 264px;
-    border-radius: 50%;
-    margin-top: 10vh;
+  width: 264px;
+  border-radius: 50%;
+  margin-top: 10vh;
 }
 
 .last-container {
-    display: flex;
-    align-items: center;
-    margin-top: -14vh;
-    margin-left: 7vw;
-
+  display: flex;
+  align-items: center;
+  margin-left: 7vw;
 }
 
 .contact {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
+@media screen and (max-width: 980px) {
+  .title-empresa {
+    font-size: 40px;
+  }
 
-@media screen and (max-width:980px) {
-    .title-empresa {
-        font-size: 40px;
-    }
+  .text-empresa {
+    font-size: 18px;
+    width: 80%;
+  }
 
-    .text-empresa {
-        font-size: 18px;
-        width: 80%;
-    }
+  .doodle-zebra {
+    width: 40%;
+  }
 
-    .container-txt2 {
-        margin-top: -50vh;
-    }
+  .title-empresa2 {
+    font-size: 40px;
+  }
 
-    .doodle-zebra {
-        width: 40%;
-    }
+  .image-motivo {
+    width: 70%;
+    margin-bottom: 10vh;
+  }
 
-    .title-empresa2 {
-        font-size: 40px;
-        margin-top: 40vh;
-    }
+  .middle-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 
-    .image-motivo {
-        width: 70%;
-        margin-bottom: 10vh;
-    }
+  .motivo {
+    margin: 0;
+    font-size: 14px;
+    margin-bottom: 10vh;
+  }
 
-    .middle-container {
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-
-    .motivo {
-        margin: 0;
-        font-size: 14px;
-        margin-bottom: 10vh;
-    }
-
-    .last-container {
-        margin-top: 0;
-    }
+  .last-container {
+    margin-top: 0;
+  }
 }
 
-@media screen and (max-width:875px) {
-    .title-empresa, .title-empresa2 {
-        font-size: 30px;
-    }
+@media screen and (max-width: 875px) {
+  .title-empresa,
+  .title-empresa2 {
+    font-size: 30px;
+  }
 
-    .text-empresa {
-        font-size: 15px;
-    }
+  .title-empresa2 {
+    margin: 15px 0 0 0;
+  }
 
-    .doodle-empresa {
-        height: 400px;
-        width: 40%;
-    }
+  .text-empresa {
+    font-size: 15px;
+  }
 
-    .container-txt2 {
-        margin-top: -40vh;
-    }
+  .doodle-empresa {
+    height: 400px;
+    width: 40%;
+  }
 
-    .representacao-image {
-        width: 40%;
-    }
+  .representacao-image {
+    width: 40%;
+    height: 90%;
+  }
 
-    .representacao-txt {
-        font-size: 16px;
-    }
-
+  .representacao-txt {
+    font-size: 16px;
+  }
 }
 
+@media screen and (max-width: 615px) {
+  .representacao-image {
+    width: 40%;
+    height: 80%;
+  }
 
-@media screen and (max-width:615px) {
-    .representacao-image {
-        width: 40%;
-        height: 80%;
-    }
+  .representacao-txt {
+    width: 40%;
+  }
 
-    .representacao-txt {
-        width: 40%;
-    }
+  .title-empresa {
+    font-size: 24px;
+  }
 
-    .title-empresa {
-        font-size: 24px;
+  .text-empresa {
+    width: 90%;
+    font-size: 14px;
+  }
 
-    }
+  .container-empresa {
+    margin-left: 10px;
+  }
 
-    .text-empresa {
-        width: 90%;
-        font-size: 14px;
-    }
+  .container-txt2 {
+    margin-right: 10px;
+  }
 
-    .container-empresa {
-        margin-left: 10px;
-    }
+  .doodle-empresa {
+    height: 350px;
+  }
 
-    .container-txt2 {
-        margin-top: -40vh;
-        margin-right: 10px;
-    }
+  .bird-empresa {
+    margin-top: 0;
+  }
 
-    .doodle-empresa {
-        height: 350px;
-    }
+  .contact {
+    font-size: 12px;
+  }
 
-    .bird-empresa {
-        margin-top: 0;
-    }
+  .doodle-suport {
+    width: 230px;
+  }
 
-    .contact {
-        font-size: 12px;
-    }
+  .motivos-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-    .doodle-suport {
-        width: 230px;
-    }
-    
-    .motivos-container {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+  .first-container {
+    margin: 10px;
+  }
 
-    .first-container {
-        margin:10px;
-    }
+  .motivo {
+    margin-bottom: 25px;
+  }
 
-    .motivo {
-        margin-bottom: 25px;
-        
-    }
-
-    .image-motivo {
-        margin: 0;
-    }
-
+  .image-motivo {
+    margin: 0;
+  }
 }
 
-@media screen and (max-width:500px) {
-    .title-empresa {
-        font-size: 18px;
-    }
+@media screen and (max-width: 500px) {
+  .title-empresa {
+    font-size: 18px;
+  }
 
-    .text-empresa {
-        font-size: 12px;
-        width: 95%;
-    }
+  .text-empresa {
+    font-size: 12px;
+    width: 95%;
+  }
 
-    .container-txt2 {
-        margin-top: -30vh;
-    }
+  .bird-empresa {
+    margin-left: 15%;
+  }
 
-    .bird-empresa {
-        margin-left: 15%;
-    }
+  .representacao-txt {
+    width: 50%;
+    font-size: 14px;
+  }
 
-    .representacao-txt {
-        width: 50%;
-        font-size: 14px;
-    }
+  .representacao-image {
+    align-self: center;
+  }
 
-    .representacao-image {
-        align-self: center;
-    }
-
-    .doodle-suport {
-        width: 200px;
-        margin-left: -15px;
-    }
+  .doodle-suport {
+    width: 200px;
+    margin-left: -15px;
+  }
 }
 
-@media screen and (max-width:376px) {
-    .title-empresa {
-        font-size: 16px;
-    }
+@media screen and (max-width: 376px) {
+  .title-empresa {
+    font-size: 16px;
+  }
 
-    .text-empresa {
-        width: 100%;
-    }
+  .text-empresa {
+    width: 100%;
+  }
 }
