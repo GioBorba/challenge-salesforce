@@ -9,7 +9,7 @@ const SC = () => {
 
             <h1 className="title-SC">Service Cloud</h1>
 
-            <div className="ball">
+            <div className="ball-sc">
                 <h2 className="title2-SC">Atendimento escalável que encanta os clientes.</h2>
                 <p className="title2-txt">Maximize o ROI e impulsione a eficiência, desde a central de contatos ao atendimento externo, tudo em uma única plataforma.</p>
 

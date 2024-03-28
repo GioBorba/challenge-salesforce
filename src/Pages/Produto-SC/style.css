@@ -13,7 +13,7 @@
     font-size: 41px;
 }
 
-.ball {
+.ball-sc {
     display: flex;
     flex-direction: column;
     padding: 45px;
@@ -154,3 +154,202 @@
 .name {
     font-weight: bold;
 }
+
+@media screen and (max-width:1290px) {
+    .doodle-astro {
+        width: 20%;
+        margin-left: 20px;
+        margin-right: 15px;
+
+    }
+
+    .SC-img {
+        margin-top: -30vh;
+        margin-left: 35vw;
+        height: 40%;
+        
+    }
+
+    .ball-sc {
+        background-color: transparent;
+    }
+
+    .title2-txt {
+        width: 60%;
+        font-size: 15px;
+    }
+
+    .title3-SC {
+        font-size: 30px;
+        margin-top:50vh;
+    }
+
+    
+}
+
+@media screen and (max-width:1005px) {
+    .feedback-txt {
+        width: 35%;
+    }
+
+    .SC-img {
+        height: 36%;
+    }
+
+    .topic-txt {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:860px) {
+    .title3-SC {
+        font-size: 25px;
+    }
+
+    .title2-SC {
+        font-size: 28px;
+    }
+
+    .SC-img {
+        
+        height: 30%;
+    }
+
+    .container-feedback {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .feedback {
+        width: 30%;
+        margin: 50px;
+    }
+
+    .feedback-txt {
+        width: 60%;
+    }
+    .doodle-rino {
+        width: 30%;
+        margin-top: 10px;
+    }
+
+    
+}
+
+@media screen and (max-width:750px) {
+    .title3-SC {
+        font-size: 22px;
+        margin-top:30vh;
+    }
+
+    .bird {
+        margin-top: 0;
+    }
+
+    .title2-SC {
+        font-size: 24px;
+        width: 70%;
+    }
+
+    .title2-txt {
+        width: 90%;
+        font-size: 13px;
+    }
+
+    .SC-img {
+        margin-top: -20vh;
+        height: 20%;
+    }
+
+    .title4-SC {
+        font-size: 27px;
+    }
+
+    .topic-txt {
+        font-size: 16px;
+    }
+
+    
+}
+
+@media screen and (max-width:600px) {
+    .title2-SC {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .title2-txt {
+        font-size: 12px;
+    }
+
+    .title3-SC {
+        font-size: 19px;
+    }
+
+    .title4-SC {
+        font-size: 20px;
+    }
+
+    .container-feedback {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .feedback-txt {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:525px) {
+    .title2-SC, .title2-txt {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .SC-img {
+        height: 20%;
+        margin-left: 38vw;
+        
+    }
+
+    .ball-sc {
+        width: 50vw;
+    }
+
+    
+
+    
+}
+
+@media screen and (max-width:460px) {
+    .title2-SC {
+        word-spacing: 1.2px;
+        line-height: 1.4;
+        font-size: 16px;
+    }
+
+
+    .title2-txt {
+        font-size: 12px;
+    }
+
+    .title3-SC {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .second, .third {
+        margin-left: 0;
+    }
+
+    .doodle-rino {
+        margin-top: 0;
+    }
+
+    .title4-SC {
+        font-size: 16px;
+    }
+}
+
