@@ -176,6 +176,24 @@
   .MC-details {
       margin-top: 40vh;
   }
+
+  .ball {
+    display: none;
+  }
+
+  .MC-title4 {
+    font-size: 35px;
+}
+
+  .title4-txt {
+    font-size: 19px;
+}
+
+  .details-text {
+  width: 100%;
+  padding: 10px;
+}
+
 }
 
 @media screen and (max-width:1000px) {
