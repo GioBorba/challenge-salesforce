@@ -52,6 +52,10 @@
   
 }
 
+.campo-login:focus {
+  border-color: #00A1E0;
+}
+
 .campo-login::placeholder {
   color:white;
   opacity: 40%;

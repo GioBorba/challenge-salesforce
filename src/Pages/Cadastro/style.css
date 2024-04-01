@@ -61,6 +61,10 @@
     background-color: #0958a7;
 }
 
+.campo-cadastro:focus {
+    border-color: #00A1E0;
+  }
+
 .campo-cadastro::placeholder {
     color: white;
     opacity: 40%;
