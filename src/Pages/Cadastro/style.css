@@ -29,7 +29,7 @@
     justify-content: space-evenly;
 }
 
-.section-input {
+.formulario-cadastro {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,6 +90,7 @@
     font-weight: bolder;
     font-size: larger;
     width: 48%;
+    margin-top: 5vh;
 }
 
 .button-cadastro:hover {
@@ -114,6 +115,7 @@
     color: #00A1E0;
     font-weight: bolder;
     border: none;
+    
 }
 
 .signin-button:hover {

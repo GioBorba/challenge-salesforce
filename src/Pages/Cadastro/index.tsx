@@ -1,9 +1,38 @@
+import React, { useState } from 'react';
 import './style.css';
 import logo from '../../Components/Header/salesforce-logo.png';
 import { Link } from 'react-router-dom';
+import axios from 'axios';
 
 const Cadastro = () => {
-    return(
+    const [nome, setNome] = useState('');
+    const [sobrenome, setSobrenome] = useState('');
+    const [empresa, setEmpresa] = useState('');
+    const [email, setEmail] = useState('');
+    const [senha, setSenha] = useState('');
+
+    const URL_API = "api_java";
+
+    const handleCadastro = async (event: React.FormEvent) => { 
+        event.preventDefault();
+
+        try {
+            const response = await axios.post(URL_API, {
+                nome: nome,
+                sobrenome: sobrenome,
+                empresa: empresa,
+                email: email,
+                senha: senha,
+            });
+            console.log(response.data);
+            alert("Cadastro bem-sucedido!");
+        } catch (error) {
+            console.error("Erro ao fazer cadastro:", error);
+            alert("Erro ao fazer cadastro. Verifique os campos e tente novamente.");
+        }
+    };
+
+    return (
         <div className="body-cadastro">
             <Link to="/">
                 <img src={logo} className="logo-cadastro" alt="Salesforce Logo" />
@@ -11,21 +40,50 @@ const Cadastro = () => {
 
             <div className="container-cadastro">
                 <h1 className="title-cadastro">Cadastro</h1>
-                <section className='section-input'>
-                    <div className="nome-sobrenome">
-                        <input type="text" className="campo-cadastro" placeholder='Nome' />
-                        <input type="text" className="campo-cadastro" placeholder='Sobrenome' />
-                    </div>
-                    <input type="email" className="campo-cadastro" placeholder='Empresa' />
-                    <input type="text" className="campo-cadastro" placeholder='Email' />
-                    <input type="password" className="campo-cadastro" placeholder='Senha' />
-                    <label className="container-checkbox">
-                        <input type="checkbox" className='checkbox' />
-                        Concordo com os termos de acordo
-                    </label>
-                </section>
-
-                <button className='button-cadastro'>Cadastrar</button>
+                    <form className='formulario-cadastro' onSubmit={handleCadastro}> 
+                        <div className="nome-sobrenome">
+                            <input 
+                                type="text" 
+                                className="campo-cadastro" 
+                                placeholder='Nome'
+                                value={nome}
+                                onChange={(e) => setNome(e.target.value)}
+                            />
+                            <input 
+                                type="text" 
+                                className="campo-cadastro" 
+                                placeholder='Sobrenome'
+                                value={sobrenome}
+                                onChange={(e) => setSobrenome(e.target.value)}
+                            />
+                        </div>
+                        <input 
+                            type="text" 
+                            className="campo-cadastro" 
+                            placeholder='Empresa'
+                            value={empresa}
+                            onChange={(e) => setEmpresa(e.target.value)}
+                        />
+                        <input 
+                            type="email" 
+                            className="campo-cadastro" 
+                            placeholder='Email'
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                        />
+                        <input 
+                            type="password" 
+                            className="campo-cadastro" 
+                            placeholder='Senha'
+                            value={senha}
+                            onChange={(e) => setSenha(e.target.value)}
+                        />
+                        <label className="container-checkbox">
+                            <input type="checkbox" className='checkbox' />
+                            Concordo com os termos de acordo
+                        </label>
+                        <button type="submit" className='button-cadastro'>Cadastrar</button>
+                    </form>
             </div>
 
             <h2 className='temConta'>Já tem uma conta? <Link to="/login"><button className="signin-button">Logar</button></Link> </h2>

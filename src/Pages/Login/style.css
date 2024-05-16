@@ -28,12 +28,14 @@
   justify-content:space-evenly;
 }
 
-.section-input {
+.formulario {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
 }
+
+
 
 .title-login {
   color: white;
@@ -81,6 +83,7 @@
   font-weight: bolder;
   font-size: larger;
   width: 48%;
+  margin-top: 5vh;
   
 }
 
