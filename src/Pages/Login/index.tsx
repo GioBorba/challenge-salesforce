@@ -9,7 +9,7 @@ const Login = () => {
     const [senha, setSenha] = useState('');
     const URL_API = "api_java";
 
-    const handleLogin = async (event: { preventDefault: () => void; }) => {
+    const handleLogin = async (event: React.FormEvent) => {
         event.preventDefault(); 
 
         try {
