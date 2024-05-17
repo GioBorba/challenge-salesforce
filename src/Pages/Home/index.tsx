@@ -67,7 +67,7 @@ const Home = () => {
 
                 <img className='image-doodle' src="https://pbs.twimg.com/media/FOZBHgEXMAE3J1p.png"></img>
 
-                <button className='bot'>BOT</button>
+                
                 <Footer/>
 
         </div>

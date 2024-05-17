@@ -21,6 +21,10 @@ const Cadastro = () => {
     const handleCadastro = async (event: React.FormEvent) => { 
         event.preventDefault();
 
+        if (!nome || !sobrenome || !empresa || !email || !senha || !telefone || !cpf || !cnpj || !nomeFantasia || !cargo) {
+            alert("Por favor, preencha todos os campos obrigatórios.");
+            return;
+        }
         try {
             const response = await axios.post(URL_API, {
                 nome: nome,
