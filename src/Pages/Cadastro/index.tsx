@@ -7,21 +7,21 @@ import axios from 'axios';
 const Cadastro = () => {
     const [nome, setNome] = useState('');
     const [sobrenome, setSobrenome] = useState('');
-    const [empresa, setEmpresa] = useState('');
+    const [nomeEmpresa, setEmpresa] = useState('');
     const [email, setEmail] = useState('');
     const [senha, setSenha] = useState('');
     const [telefone, setTelefone] = useState('');
     const [cpf, setCpf] = useState('');
     const [cnpj, setCnpj] = useState('');
-    const [nomeFantasia, setNomeFantasia] = useState('');
+   
     const [cargo, setCargo] = useState('');
 
-    const URL_API = "api_java";
+    const URL_API = "http://localhost:3000/usuarios";
 
     const handleCadastro = async (event: React.FormEvent) => { 
         event.preventDefault();
 
-        if (!nome || !sobrenome || !empresa || !email || !senha || !telefone || !cpf || !cnpj || !nomeFantasia || !cargo) {
+        if (!nome || !sobrenome || !nomeEmpresa || !email || !senha || !telefone || !cpf || !cnpj || !cargo) {
             alert("Por favor, preencha todos os campos obrigatórios.");
             return;
         }
@@ -29,13 +29,12 @@ const Cadastro = () => {
             const response = await axios.post(URL_API, {
                 nome: nome,
                 sobrenome: sobrenome,
-                empresa: empresa,
+                nomeEmpresa: nomeEmpresa,
                 email: email,
                 senha: senha,
                 telefone: telefone,
                 cpf: cpf,
                 cnpj: cnpj,
-                nomeFantasia: nomeFantasia,
                 cargo: cargo
             });
             console.log(response.data);
@@ -90,15 +89,8 @@ const Cadastro = () => {
                             type="text" 
                             className="campo-cadastro" 
                             placeholder='Empresa'
-                            value={empresa}
+                            value={nomeEmpresa}
                             onChange={(e) => setEmpresa(e.target.value)}
-                        />
-                        <input 
-                            type="text" 
-                            className="campo-cadastro" 
-                            placeholder='Nome Fantasia'
-                            value={nomeFantasia}
-                            onChange={(e) => setNomeFantasia(e.target.value)}
                         />
                         <input 
                             type="text" 

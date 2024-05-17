@@ -7,7 +7,7 @@ import axios from 'axios';
 const Login = () => {
     const [email, setEmail] = useState('');
     const [senha, setSenha] = useState('');
-    const URL_API = "api_java";
+    const URL_API = "http://localhost:3000/usuarios";
 
     const handleLogin = async (event: React.FormEvent) => {
         event.preventDefault(); 
