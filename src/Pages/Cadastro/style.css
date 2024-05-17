@@ -6,7 +6,7 @@
 
 .body-cadastro {
     background-color: #0B5CAB;
-    height: 110vh;
+    height: 100%;
 }
 
 .logo-cadastro {
@@ -18,13 +18,12 @@
 .container-cadastro {
     display: flex;
     flex-direction: column;
-    width: 32%;
+    width: 38%;
     background-color: #014C95;
     padding: 10px;
     align-items: center;
     border-radius: 23px;
     margin: auto;
-    height: 80vh;
     margin-bottom: 30vh;
     justify-content: space-evenly;
 }
@@ -38,6 +37,7 @@
 
 .title-cadastro {
     color: white;
+    padding: 15px;
 }
 
 .nome-sobrenome {
@@ -103,9 +103,10 @@
 .temConta {
     display: flex;
     justify-content: center;
-    margin: -25vh 0 10vh;
+    margin: -25vh 0;
     color: white;
     align-items: center;
+    padding: 15px;
 }
 
 .signin-button {
@@ -142,6 +143,10 @@
     .nome-sobrenome .campo-cadastro {
         width: 80%;
         margin: 15px 0;
+    }
+
+    .button-cadastro {
+        
     }
 }
 

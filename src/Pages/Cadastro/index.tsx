@@ -10,6 +10,11 @@ const Cadastro = () => {
     const [empresa, setEmpresa] = useState('');
     const [email, setEmail] = useState('');
     const [senha, setSenha] = useState('');
+    const [telefone, setTelefone] = useState('');
+    const [cpf, setCpf] = useState('');
+    const [cnpj, setCnpj] = useState('');
+    const [nomeFantasia, setNomeFantasia] = useState('');
+    const [cargo, setCargo] = useState('');
 
     const URL_API = "api_java";
 
@@ -23,6 +28,11 @@ const Cadastro = () => {
                 empresa: empresa,
                 email: email,
                 senha: senha,
+                telefone: telefone,
+                cpf: cpf,
+                cnpj: cnpj,
+                nomeFantasia: nomeFantasia,
+                cargo: cargo
             });
             console.log(response.data);
             alert("Cadastro bem-sucedido!");
@@ -30,7 +40,7 @@ const Cadastro = () => {
             console.error("Erro ao fazer cadastro:", error);
             alert("Erro ao fazer cadastro. Verifique os campos e tente novamente.");
         }
-    };
+    }
 
     return (
         <div className="body-cadastro">
@@ -60,9 +70,45 @@ const Cadastro = () => {
                         <input 
                             type="text" 
                             className="campo-cadastro" 
+                            placeholder='CPF'
+                            value={cpf}
+                            onChange={(e) => setCpf(e.target.value)}
+                        />
+
+                        <input 
+                            type="tel" 
+                            className="campo-cadastro" 
+                            placeholder='Telefone'
+                            value={telefone}
+                            onChange={(e) => setTelefone(e.target.value)}
+                        />
+                        <input 
+                            type="text" 
+                            className="campo-cadastro" 
                             placeholder='Empresa'
                             value={empresa}
                             onChange={(e) => setEmpresa(e.target.value)}
+                        />
+                        <input 
+                            type="text" 
+                            className="campo-cadastro" 
+                            placeholder='Nome Fantasia'
+                            value={nomeFantasia}
+                            onChange={(e) => setNomeFantasia(e.target.value)}
+                        />
+                        <input 
+                            type="text" 
+                            className="campo-cadastro" 
+                            placeholder='Cargo'
+                            value={cargo}
+                            onChange={(e) => setCargo(e.target.value)}
+                        />
+                        <input 
+                            type="text" 
+                            className="campo-cadastro" 
+                            placeholder='CNPJ'
+                            value={cnpj}
+                            onChange={(e) => setCnpj(e.target.value)}
                         />
                         <input 
                             type="email" 
@@ -78,6 +124,7 @@ const Cadastro = () => {
                             value={senha}
                             onChange={(e) => setSenha(e.target.value)}
                         />
+
                         <label className="container-checkbox">
                             <input type="checkbox" className='checkbox' />
                             Concordo com os termos de acordo
