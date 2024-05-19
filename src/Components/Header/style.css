@@ -222,9 +222,14 @@
             
         }
 
-        .right-side {
-            width: 80%;
-        }
+
+    }
+}
+
+
+@media screen and (max-width: 415px){
+    #industria {
+        display: none;
     }
 }
 
@@ -238,9 +243,7 @@
         font-size: 7.8px;
     }
 
-    #industria {
-        display: none;
-    }
+
 }
 
 
