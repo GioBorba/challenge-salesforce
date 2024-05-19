@@ -228,4 +228,16 @@
     }
 }
 
+@media screen and (max-width: 355px) {
+    .user {
+        width: 8px;
+        margin-right: 2px;
+    }
+
+    h2.links a {
+        font-size: 7.8px;
+    }
+}
+
+
   
