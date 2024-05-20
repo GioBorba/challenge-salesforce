@@ -7,7 +7,7 @@ import axios from 'axios';
 const Login = () => {
     const [email, setEmail] = useState('');
     const [senha, setSenha] = useState('');
-    const URL_API = "http://localhost:3000/usuarios";
+    const URL_API = "http://localhost:3000/auth/login";
 
     const handleLogin = async (event: React.FormEvent) => {
         event.preventDefault(); 
@@ -15,7 +15,7 @@ const Login = () => {
         try {
             const response = await axios.post(URL_API, {
                 email: email,
-                password: senha,
+                senha: senha,
             });
             console.log(response.data);
             alert("Login bem-sucedido!");

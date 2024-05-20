@@ -16,7 +16,7 @@ const Cadastro = () => {
    
     const [cargo, setCargo] = useState('');
 
-    const URL_API = "http://localhost:3000/usuarios";
+    const URL_API = "http://localhost:3000/auth/signup";
 
     const handleCadastro = async (event: React.FormEvent) => { 
         event.preventDefault();
