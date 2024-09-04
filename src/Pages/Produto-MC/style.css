@@ -107,6 +107,7 @@
   display: flex;
   justify-content: space-around;
   margin-top: 69vh;
+  margin-bottom: 10vh;
 }
 
 .details-text {
